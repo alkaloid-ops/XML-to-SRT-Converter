@@ -45,30 +45,8 @@ python xmlToSrt.py
 
 ## XML 输入格式说明
 
-程序要求 XML 文件遵循以下结构：
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <timebase>25</timebase>
-    <generatoritem>
-        <start>100</start>
-        <end>250</end>
-        <parameter>
-            <parameterid>str</parameterid>
-            <value>这是第一句字幕</value>
-        </parameter>
-    </generatoritem>
-    <generatoritem>
-        <start>300</start>
-        <end>450</end>
-        <parameter>
-            <parameterid>str</parameterid>
-            <value>第二句字幕</value>
-        </parameter>
-    </generatoritem>
-</root>
-```
+常用剪辑软件（如 PR、达芬奇、final7等）导出的时间线XML都支持
+> ⚠️ 注意：Apple 的 Final Cut Pro 导出的 *.fcpxml不支持转换
 
 **字段说明：**
 
