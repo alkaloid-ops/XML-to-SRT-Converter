@@ -104,14 +104,8 @@ python xmlToSrt.py
 
 ## 常见问题
 
-**Q：为什么转换后的 SRT 文件是空的？**  
-A：请检查 XML 文件是否包含有效的 `<generatoritem>` 条目，且每个条目都有非空的 `start`、`end` 和 `value`。
-
-**Q：程序报错 “No module named 'PyQt5'”？**  
-A：请先执行 `pip install PyQt5` 安装依赖。
-
 **Q：能否支持单个文件而不是文件夹？**  
-A：当前版本仅支持按文件夹批量转换。如需单文件功能，可自行修改或提交 Issue。
+A：单个文件只需要在文件夹目录下存放单个文件即可转换。
 
 ## 许可证
 
